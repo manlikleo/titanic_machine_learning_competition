@@ -18,4 +18,4 @@ X = pd.get_dummies(train) #convert non-numerical variables to dummy variables
 
 from sklearn import tree
 dtc = tree.DecisionTreeClassifier()
-dtc.fit(X,y)
+dtc.fit(X, y)
